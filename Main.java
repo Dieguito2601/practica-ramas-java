@@ -6,9 +6,12 @@ public class main {
     }     
 
 
-    public static void mostrarSaludo(String nombre) {
-        System.out.println("Hola " + nombre);
-    }
+   public static void mostrarSaludo(String nombre) {
+System.out.println("==============================");
+System.out.println("Hola, " + nombre + "!");
+System.out.println("Bienvenido/a a la práctica de Git.");
+System.out.println("==============================");
+}
 
     public static int sumar(int a, int b) {
     return a + b;
