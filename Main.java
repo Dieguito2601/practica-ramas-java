@@ -11,6 +11,7 @@ System.out.println("==============================");
 System.out.println("Hola, " + nombre + "!");
 System.out.println("Bienvenido/a a la práctica de Git.");
 System.out.println("==============================");
+System.out.println("Saludo desde rama remota");
 }
 
     public static int sumar(int a, int b) {
