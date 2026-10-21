@@ -1,4 +1,4 @@
-public class main {
+public class Main {
 
     public static void main(String[] args) {
         mostrarSaludo("Ana");
@@ -14,7 +14,9 @@ System.out.println("==============================");
 }
 
     public static int sumar(int a, int b) {
-    return a + b;
-    }
+System.out.println("Sumando " + a + " + " + b + "...");
+int resultado = a + b;
+return resultado;
+}
 
 }
